@@ -7,7 +7,7 @@ const Nav = styled.div`
   justify-content: space-between;
   width: 100%;
   padding: 20px 20px;
-
+  border-bottom: 1px solid white;
   & img {
     width: 40px;
     object-fit: contain;
@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <Nav>
-      <img src="https://cdn1.vectorstock.com/i/1000x1000/72/90/female-avatar-profile-icon-round-woman-face-vector-18307290.jpg" />
+      <img alt="avatar of a cat" src="https://robohash.org/blixt?set=set4" />
       <div>
         <p>{user.name}</p>
         <button onClick={() => setBonus(bonus ? "" : "nice")}>bonus</button>
