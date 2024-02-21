@@ -1,6 +1,6 @@
 export const fetchUserData = async (id) => {
   try {
-    //both the fetch and json can error trycatch is needed.
+    //both the fetch (not common, network/cors errors) and json can error(Syntax) trycatch or promise chaining is needed.
     const res = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`);
     // if you want to check that you got a 200 back you need to do an if (res.ok).
     const data = await res.json();
