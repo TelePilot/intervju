@@ -9,7 +9,10 @@ import useUser from "./hooks/useUser";
 export const UserContext = createContext({ user: "Loading..." });
 
 function App() {
+  //if there is time implementing context could be a bonus.
   const [bonus, setBonus] = useState("");
+
+  //custom hooks is not necessary but could be a question around structure
   const user = useUser(1);
   return (
     <>

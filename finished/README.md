@@ -1,4 +1,8 @@
-# React + Vite
+# Intervju finished
+
+Annotated in certain places, if something is missing or confusing please let me know
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
