@@ -3,7 +3,7 @@ import useUsers from "../hooks/useUsers";
 
 const Search = () => {
   const [input, setInput] = useState("");
-  //Custom hook just a nicety that I like, funcitonality can be moved here since
+  //Custom hook just a nicety that I like, functionality can be moved here since
   //we only use it in one place.
   const users = useUsers();
 
